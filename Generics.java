@@ -4,7 +4,7 @@ public class Generics {
 
     public static void main(String[] args) {
         Integer [] int1 = {1,2,3};
-        Double [] dub1 = {1.1, 1.2, 2.2};
+        Double [] dub1 = {1.1, 1.2, 2.2, 3.3};
         Generics.printInt(int1);
         Generics.printDouble(dub1);
     }
