@@ -17,5 +17,10 @@ public class TU_MaxFinder {
         Double max = MaxFinder.findMax(dub1, dub2, dub3);
         Assertions.assertEquals(99.9,max, "validating max method");
     }
-
+    @Test
+    void whenStringShouldReturnMax() {
+        String str1 = "Apple", str2 = "Peach", str3 = "Banana";
+        String max = MaxFinder.findMax(str1, str2, str3);
+        Assertions.assertEquals("Banana",max, "validating max method");
+    }
 }

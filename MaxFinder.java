@@ -24,4 +24,16 @@ public class MaxFinder {
         System.out.printf("Max value of %s %s %s is : %s \n", dub1,dub2,dub3,max);
         return max;
     }
+
+    public static String findMax(String str1, String str2, String str3) {
+        String max = str1;
+        if(str2.compareTo(max)>0){
+            max = str2;
+        }
+        if(str3.compareTo(max)>0){
+            max=str3;
+        }
+        System.out.printf("Max value of %s %s %s is : %s \n", str1,str2,str3,max);
+        return max;
+    }
 }
