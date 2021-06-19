@@ -2,9 +2,9 @@ package com.bridgelabz.max;
 
 public class MaxFinder {
     public static Integer findMax(Integer int1, Integer int2, Integer int3) {
-        Integer max = int1;
-        if(int2.compareTo(max)>0){
-            max = int2;
+        Integer max = int2;
+        if(int1.compareTo(max)>0){
+            max = int1;
         }
         if(int3.compareTo(max)>0){
             max=int3;
