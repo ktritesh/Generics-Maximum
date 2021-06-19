@@ -5,7 +5,7 @@ public class Generics {
     public static void main(String[] args) {
         Integer [] int1 = {1,2,3};
         Double [] dub1 = {1.1, 1.2, 2.2, 3.3, 4.4};
-        String [] str1 = {"Apple", "Peach", "Banana"};
+        String [] str1 = {"Apple", "Peach", "Banana", "Orange"};
         Generics.printInt(int1);
         Generics.printDouble(dub1);
         Generics.printStr(str1);
