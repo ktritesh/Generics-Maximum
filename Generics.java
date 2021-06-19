@@ -3,7 +3,7 @@ package com.bridgelabz.generics;
 public class Generics {
 
     public static void main(String[] args) {
-        Integer [] int1 = {1,2,3,4};
+        Integer [] int1 = {1,2,3,4,5};
         printInt(int1);
     }
 
