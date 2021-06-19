@@ -17,5 +17,4 @@ public class TU_MaxFinder {
         Double max = MaxFinder.findMax(dub1, dub2, dub3);
         Assertions.assertEquals(99.9,max, "validating max method");
     }
-
 }
