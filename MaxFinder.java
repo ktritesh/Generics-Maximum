@@ -12,4 +12,16 @@ public class MaxFinder {
         System.out.printf("Max value of %s %s %s is : %s \n", int1,int2,int3,max);
         return max;
     }
+
+    public static Double findMax(Double dub1, Double dub2, Double dub3) {
+        Double max = dub1;
+        if(dub2.compareTo(max)>0){
+            max = dub2;
+        }
+        if(dub3.compareTo(max)>0){
+            max=dub3;
+        }
+        System.out.printf("Max value of %s %s %s is : %s \n", dub1,dub2,dub3,max);
+        return max;
+    }
 }
