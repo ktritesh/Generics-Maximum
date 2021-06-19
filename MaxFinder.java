@@ -14,9 +14,9 @@ public class MaxFinder {
     }
 
     public static Double findMax(Double dub1, Double dub2, Double dub3) {
-        Double max = dub1;
-        if(dub2.compareTo(max)>0){
-            max = dub2;
+        Double max = dub2;
+        if(dub1.compareTo(max)>0){
+            max = dub1;
         }
         if(dub3.compareTo(max)>0){
             max=dub3;
