@@ -12,7 +12,7 @@ public class MaxFinder {
         if(int3.compareTo(max)>0){
             max=int3;
         }
-        System.out.printf("Max value of %s %s %s %s is : %s \n", int1,int2,int3,int4,max);
+        System.out.printf("Max value of %s %s %s %s is : %s \n", int1, int2, int3, int4, max);
         return max;
     }
 

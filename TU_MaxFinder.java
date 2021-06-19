@@ -8,7 +8,7 @@ public class TU_MaxFinder {
     void whenIntegerShouldReturnMax() {
         Integer int1 = 77, int2 = 88, int3 = 99, int4 = 111;
         Integer max = MaxFinder.findMax(int1, int2, int3, int4);
-        Assertions.assertEquals(111,max, "validating max method");
+        Assertions.assertEquals(111,max,"validating max method");
     }
 
     @Test
