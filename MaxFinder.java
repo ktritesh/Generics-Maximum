@@ -14,12 +14,12 @@ public class MaxFinder {
     }
 
     public static Double findMax(Double dub1, Double dub2, Double dub3) {
-        Double max = dub1;
-        if(dub2.compareTo(max)>0){
-            max = dub2;
+        Double max = dub3;
+        if(dub1.compareTo(max)>0){
+            max = dub1;
         }
-        if(dub3.compareTo(max)>0){
-            max=dub3;
+        if(dub2.compareTo(max)>0){
+            max=dub2;
         }
         System.out.printf("Max value of %s %s %s is : %s \n", dub1,dub2,dub3,max);
         return max;

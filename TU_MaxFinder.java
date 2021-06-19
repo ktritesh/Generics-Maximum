@@ -13,9 +13,9 @@ public class TU_MaxFinder {
 
     @Test
     void whenDoubleShouldReturnMax() {
-        Double dub1 = 5.5, dub2 = 4.4, dub3 = 3.3;
+        Double dub1 = 77.7, dub2 = 88.8, dub3 = 99.9;
         Double max = MaxFinder.findMax(dub1, dub2, dub3);
-        Assertions.assertEquals(5.5,max, "validating max method");
+        Assertions.assertEquals(99.9,max, "validating max method");
     }
 
 }
